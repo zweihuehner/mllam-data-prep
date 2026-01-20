@@ -340,6 +340,7 @@ class Output:
     coord_ranges: Dict[str, Range] = field(default_factory=dict)
     chunking: Dict[str, int] = field(default_factory=dict)
     splitting: Optional[Splitting] = None
+    root_path: Optional[str] = None
 
 
 @dataclass
